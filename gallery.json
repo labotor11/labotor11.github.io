@@ -1,0 +1,330 @@
+{
+    "blank":
+    {
+        "title": "",
+        "description": "",
+        "imageThumbPath": "",
+        "secondaryImages": [
+            "",
+            ""
+        ]
+    },
+    "opel":
+    {
+        "title": "opel DCO",
+        "description": "Preview: <a href='https://preview.bann.rs/22PUB008OPE-Opel-development/' target='_blank'>https://preview.bann.rs/22PUB008OPE-Opel-development/</a>\n\nA project for Opel (and Vauxhall) - we were tasked with creating and developing a dynamic banner system. The idea is that we build templates in which the client can insert their own data into (images, text, etc) and it works across sizes and languages. A very large-scale project, spanning multiple months - I was brought in to concept and create the default designs that the system will adhere to. A very long process, in part due to how many clients were involved with the feedback process - but ultimately paid off as the end-result is flexible enough for the client to use and re-use with ease.",
+        "imageThumbPath": "img/graphic-ux/opel/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/opel/1.png",
+            "img/graphic-ux/opel/2.png"
+        ]
+    },
+    "lotto-gouden-bal":
+    {
+        "title": "lotto gouden bal",
+        "description": "Preview: offline\n\nA project for Lotto - we were tasked with creating and developing a campaignwebsite, and accompanying campaignvisual (based on their existing visual - the vegas-style light sign). I was tasked with designing both and did some initial concept sketches for the campaignvisual, of which we settled on the slotmachine.",
+        "imageThumbPath": "img/graphic-ux/lotto-gouden-bal/thumb.jpg",
+        "secondaryImages": [
+            "img/graphic-ux/lotto-gouden-bal/concept.png",
+            "img/graphic-ux/lotto-gouden-bal/design.png"
+        ]
+    },
+    "vice":
+    {
+        "title": "vice - eduction in motion",
+        "description": "Preview: <a href='https://eueducationinmotion.vice.com/en' target='_blank'>https://eueducationinmotion.vice.com/en</a> (final stage, after a winner had been picked)\n\nA project made for Vice World News in collaboration with the EU - a contest for documentary-makers was going to be launched and we were pulled in at the beginning of the project, so we had the freedom to come up with our own concepts and designs aside from just working on development. I worked together with the client's Director of Design, he was able to provide us with early concepting guidance such as moodboards as well as feedback on the consequent design passes. The current version of the website is centered around the winner that had been chosen, but I have laid out some earlier stages as well.",
+        "imageThumbPath": "img/graphic-ux/vice/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/vice/1.png",
+            "img/graphic-ux/vice/2.png",
+            "img/graphic-ux/vice/3.png",
+            "img/graphic-ux/vice/4.png",
+            "img/graphic-ux/vice/5.png",
+            "img/graphic-ux/vice/6.png",
+            "img/graphic-ux/vice/7.png",
+            "img/graphic-ux/vice/8.png"
+        ]
+    },
+    "fritsie":
+    {
+        "title": "fritsie game",
+        "description": "Preview: <a href='https://stl-fritsie.accept3.mrynk.net/?n=123&f=Test&c=1#/' target='_blank'>https://stl-fritsie.accept3.mrynk.net/</a>\n\nA project for Staatsloterij - for their 2021 christmas campaign centering a cuckoo bird named Fritsie. We were tasked with creating a game that would fit the campaign - a process we were given a lot of control over. Based on their video ad and existing materials, we came up with several concepts before settling on a 'Flappy Bird'-type game. I created wireframes, sprites and the eventual design of the game. Because of the scope of this project, it had to go through many iterations before development could start - of which i've added a few images to illustrate this evolution.",
+        "imageThumbPath": "img/graphic-ux/fritsie/thumb.jpg",
+        "secondaryImages": [
+            "img/graphic-ux/fritsie/1.png",
+            "img/graphic-ux/fritsie/2.png",
+            "img/graphic-ux/fritsie/5.png",
+            "img/graphic-ux/fritsie/6.png"
+        ]
+    },
+    "npl-295":
+    {
+        "title": "staatsloterij 295 jaar",
+        "description": "Preview: offline\n\nA project for Staatsloterij - we were tasked with creating a game for the company's 295th anniversary, one that has multiplayer capabilities for their club members. I sketched out a few concepts, of which the balloon game was chosen to be designed and developed. We used some pre-existing material created for this campaign (the character sprites and background icons) but the rest of the assets were created from scratch, in accordance with their brand identity.",
+        "imageThumbPath": "img/graphic-ux/npl-295/thumb.jpg",
+        "secondaryImages": [
+            "img/graphic-ux/npl-295/1.png",
+            "img/graphic-ux/npl-295/2.png",
+            "img/graphic-ux/npl-295/3.png",
+            "img/graphic-ux/npl-295/4.png"
+        ]
+    },
+    "spraymaster":
+    {
+        "title": "ppg spraymaster",
+        "description": "Preview: <a href='https://ppg-spraymaster.accept2.mrynk.net/' target='_blank'>https://ppg-spraymaster.accept2.mrynk.net/</a>\n\nA project for PPG Sigma - they were launching a new product and were looking to us to design and develop a website in order to advertise it. We were given a lot of control over the entire project, and I was tasked with concepting and doing most of the designwork before it was taken over by a colleague in consequent future updates. I've added a few of my early design concepts and old design versions to show the steady evolution of the website's design.",
+        "imageThumbPath": "img/graphic-ux/spraymaster/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/spraymaster/1.png",
+            "img/graphic-ux/spraymaster/2.png",
+            "img/graphic-ux/spraymaster/3.png",
+            "img/graphic-ux/spraymaster/4.png",
+            "img/graphic-ux/spraymaster/5.png"
+        ]
+    },
+    "berg-qr-speurtocht":
+    {
+        "title": "berg qr speurtocht",
+        "description": "A project for Berg Skelters - we were only given the task to do some concepting for a scavenger hunt game that would be available to play at certain holiday resorts. Here are some sketches I did for one of our storyboards, a 'collect-a-thon' where the player would collect digital parts of a skelter, which they could in turn customize and put together to show off online.",
+        "imageThumbPath": "img/graphic-ux/berg-qr-speurtocht/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/berg-qr-speurtocht/1.png"
+        ]
+    },
+    "lucky-day-hoger-lager":
+    {
+        "title": "lucky day hoger/lager",
+        "description": "Preview: <a href='https://luckyday-hogerlager.accept4.mrynk.net/' target='_blank'>https://luckyday-hogerlager.accept4.mrynk.net/</a>\n\nA project for Lucky Day - they asked us to create a 'Hoger/Lager' (higher/lower) game in accordance with their brand identity.",
+        "imageThumbPath": "img/graphic-ux/lucky-day-hoger-lager/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/lucky-day-hoger-lager/1.png"
+        ]
+    },
+    "bob":
+    {
+        "title": "bob's autowas",
+        "description": "Preview: <a href='https://previewer.weborama.nl/preview/l2jJ' target='_blank'>https://previewer.weborama.nl/preview/l2jJ</a>\n\nProject for Bob's Autowas (carwash) - the client was looking to advertise their subscriptions (amongst other features at their various locations) and came to us for concepting, design and development.",
+        "imageThumbPath": "img/graphic-ux/bob/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/bob/1.png",
+            "img/graphic-ux/bob/2.png"
+        ]
+    },
+    "ulla":
+    {
+        "title": "tu/e barcommission",
+        "description": "Freelance project for the barcommission of Eindhoven University of Technology - I was asked to design a logo that would be embroidered on the back of their uniforms. Initially I shared a few concept ideas (surrounding alcohol, of course) and they ended up choosing the second version of the first idea, which I tweaked based on feedback.",
+        "imageThumbPath": "img/graphic-ux/ulla/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/ulla/1.png",
+            "img/graphic-ux/ulla/2.png",
+            "img/graphic-ux/ulla/3.jpg"
+        ]
+    },
+    "lotto-cadeau-parade":
+    {
+        "title": "lotto cadeau parade",
+        "description": "A project for Lotto - the client was looking to us to help them create a campaignwebsite, and an accompanying campaignvisual. The latter's process was a bit rocky because the client had difficulty nailing down what exactly they were looking for, and we initially struggled to bring their vision to life. A different designer worked on this visual after some initial cooperative concepting, but afterwards the task was handed to me. After some more back-and-forth with the client, we finally settled on a design and the other designer continued to design the website itself. Here shown are some of my initial sketches and concepting + the final design of the campaignvisual.",
+        "imageThumbPath": "img/graphic-ux/lotto-cadeau-parade/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/lotto-cadeau-parade/1.png",
+            "img/graphic-ux/lotto-cadeau-parade/2.png",
+            "img/graphic-ux/lotto-cadeau-parade/3.png",
+            "img/graphic-ux/lotto-cadeau-parade/4.png"
+        ]
+    },
+    "stl-inpakken-en-wegwezen":
+    {
+        "title": "stl inpakken en wegwezen",
+        "description": "Preview: offline\n\nA project for Staatsloterij (in collaboration with Europarcs) - we were tasked with concepting, designing and the development of a campaigngame. We settled on a catch game where the player can catch various vacation-themed items to raise their score.",
+        "imageThumbPath": "img/graphic-ux/stl-inpakken-en-wegwezen/thumb.png",
+        "secondaryImages": [
+            "img/graphic-ux/stl-inpakken-en-wegwezen/1.png",
+            "img/graphic-ux/stl-inpakken-en-wegwezen/2.png",
+            "img/graphic-ux/stl-inpakken-en-wegwezen/3.png",
+            "img/graphic-ux/stl-inpakken-en-wegwezen/4.png"
+        ]
+    },
+    "blank":
+    {
+        "title": "",
+        "description": "",
+        "imageThumbPath": "",
+        "secondaryImages": [
+            "",
+            ""
+        ]
+    },
+    "harpy":
+    {
+        "title": "harpy",
+        "description": "A harpy from Baldur's Gate 3",
+        "imageThumbPath": "img/illustration/harpy/thumb.png",
+        "secondaryImages": [
+            "img/illustration/harpy/1.png",
+            "img/illustration/harpy/2.mov"
+        ]
+    },
+    "adiane":
+    {
+        "title": "adiane",
+        "description": "Adiane from Gurren Lagann",
+        "imageThumbPath": "img/illustration/adiane/thumb.png",
+        "secondaryImages": [
+            "img/illustration/adiane/1.png",
+            "img/illustration/adiane/2.png",
+            "img/illustration/adiane/2.png"
+        ]
+    },
+    "duality":
+    {
+        "title": "duality",
+        "description": "Made for a Baldur's Gate 3 themed zine.",
+        "imageThumbPath": "img/illustration/duality/thumb.png",
+        "secondaryImages": [
+            "img/illustration/duality/1.jpg",
+            "img/illustration/duality/2.jpg",
+            "img/illustration/duality/3.jpg"
+        ]
+    },
+    "masquerade":
+    {
+        "title": "masquerade",
+        "description": "Made for a Baldur's Gate 3 themed zine.",
+        "imageThumbPath": "img/illustration/masquerade/thumb.png",
+        "secondaryImages": [
+            "img/illustration/masquerade/1.jpg",
+            "img/illustration/masquerade/2.jpg"
+        ]
+    },
+    "winter":
+    {
+        "title": "winter",
+        "description": "Made for a Baldur's Gate 3 themed zine.",
+        "imageThumbPath": "img/illustration/winter/thumb.png",
+        "secondaryImages": [
+            "img/illustration/winter/1.jpg",
+            "img/illustration/winter/2.mov"
+        ]
+    },
+    "goblin":
+    {
+        "title": "goblin",
+        "description": "Tarot-style card of a goblin D&D character",
+        "imageThumbPath": "img/illustration/goblin/thumb.png",
+        "secondaryImages": [
+            "img/illustration/goblin/1.png",
+            "img/illustration/goblin/2.jpg",
+            "img/illustration/goblin/3.mov"
+        ]
+    },
+    "ugnes":
+    {
+        "title": "ugnes the gnoll",
+        "description": "Character design of a gnoll D&D character.",
+        "imageThumbPath": "img/illustration/ugnes/thumb.png",
+        "secondaryImages": [
+            "img/illustration/ugnes/3.png",
+            "img/illustration/ugnes/2.png",
+            "img/illustration/ugnes/4.png"
+        ]
+    },
+    "elzal":
+    {
+        "title": "artificer",
+        "description": "A gnome D&D character.",
+        "imageThumbPath": "img/illustration/elzal/thumb.png",
+        "secondaryImages": [
+            "img/illustration/elzal/1.png",
+            "img/illustration/elzal/2.png",
+            "img/illustration/elzal/3.png"
+        ]
+    },
+    "portraits":
+    {
+        "title": "portraits",
+        "description": "Various character portraits.",
+        "imageThumbPath": "img/illustration/portraits/thumb.png",
+        "secondaryImages": [
+            "img/illustration/portraits/1.png",
+            "img/illustration/portraits/2.jpg",
+            "img/illustration/portraits/3.jpg",
+            "img/illustration/portraits/4.png",
+            "img/illustration/portraits/5.png"
+        ]
+    },
+    "self-portraits":
+    {
+        "title": "self-portraits",
+        "description": "Fun yearly excercise - self portraits from 2018 to 2023.",
+        "imageThumbPath": "img/illustration/self-portraits/thumb.png",
+        "secondaryImages": [
+            "img/illustration/self-portraits/1.jpg",
+            "img/illustration/self-portraits/2.jpg",
+            "img/illustration/self-portraits/3.jpg",
+            "img/illustration/self-portraits/4.jpg",
+            "img/illustration/self-portraits/5.jpg"
+        ]
+    },
+    "doodles":
+    {
+        "title": "sketchbook",
+        "description": "Various sketchbook art.",
+        "imageThumbPath": "img/illustration/doodles/thumb.png",
+        "secondaryImages": [
+            "img/illustration/doodles/1.png",
+            "img/illustration/doodles/2.png",
+            "img/illustration/doodles/3.png",
+            "img/illustration/doodles/4.png",
+            "img/illustration/doodles/5.jpg",
+            "img/illustration/doodles/6.jpg"
+        ]
+    },
+    "studies":
+    {
+        "title": "studies",
+        "description": "Various studies done throughout the years.",
+        "imageThumbPath": "img/illustration/studies/thumb.png",
+        "secondaryImages": [
+            "img/illustration/studies/1.png",
+            "img/illustration/studies/2.png",
+            "img/illustration/studies/3.png",
+            "img/illustration/studies/4.jpg",
+            "img/illustration/studies/5.png",
+            "img/illustration/studies/6.png",
+            "img/illustration/studies/7.jpg",
+            "img/illustration/studies/8.png"
+        ]
+    },
+    "blank":
+    {
+        "title": "",
+        "description": "",
+        "imageThumbPath": "",
+        "secondaryImages": [
+            "",
+            ""
+        ]
+    },
+    "seamore":
+    {
+        "title": "seamore the plasmoid",
+        "description": "3D model made and rigged of a plasmoid D&D character.",
+        "imageThumbPath": "img/3d/seamore/3.gif",
+        "secondaryImages": [
+            "img/3d/seamore/1.png",
+            "img/3d/seamore/2.gif",
+            "img/3d/seamore/3.gif"
+        ]
+    },
+    "sardow":
+    {
+        "title": "sardow the goblin",
+        "description": "3D model made and rigged of a goblin D&D character.",
+        "imageThumbPath": "img/3d/sardow/2.gif",
+        "secondaryImages": [
+            "img/3d/sardow/1.png",
+            "img/3d/sardow/2.gif"
+        ]
+    }
+}

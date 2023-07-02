@@ -1,0 +1,405 @@
+$light: #FFE3D9;
+$light2: #FFCABE;
+$dark: #602234;
+$dark2: #35051e;
+$bright: #D26A65;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    max-height: 100%;
+}
+
+.container {
+    // width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    background-color: $light;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    text-transform: uppercase;
+    color: $dark;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 2.5rem;
+    font-size: 2.5rem;
+    color: $dark2;
+}
+
+h1:first-of-type {
+    margin-bottom: 1rem;
+}
+
+h4 {
+    color: $dark2;
+}
+
+p {
+    margin: auto;
+    width: 65%;
+    color: $dark2;
+    text-align: center;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    background: $light;
+
+    padding: 1rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: end;
+
+    margin-right: 1rem;
+
+    z-index: 9999;
+
+    .nav {
+        text-decoration: none;
+    }
+
+    .nav::after {
+        content: '';
+        height: 3px;
+        width: 100%;
+        background: $bright;
+        display: block;
+        opacity: 0;
+
+        transition: all 0.2s;
+    }
+
+    .nav:hover::after {
+        opacity: 1;
+    }
+
+    .nav.active::after {
+        opacity: 1;
+    }
+}
+
+.content {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    width: 70%;
+    margin: auto;
+}
+
+.content-wrapper {
+    //hack for extended background color
+    background-color: $light2;
+}
+
+.home {}
+
+.about {}
+
+.work {
+
+    .filter-wrapper {
+        display: flex;
+        gap: 2.5rem;
+        justify-content: center;
+
+        margin-bottom: 2rem;
+
+        .filter {
+            text-decoration: none;
+            border: none;
+            outline: none;
+            background: none;
+
+            font-family: 'Montserrat', sans-serif; //WHY
+        }
+
+        .filter:hover {
+            cursor: pointer;
+        }
+
+        .filter::after {
+            content: '';
+            height: 3px;
+            width: 100%;
+            background: $bright;
+            display: block;
+            opacity: 0;
+
+            transition: all 0.2s;
+        }
+
+        .filter:hover::after {
+            opacity: 1;
+        }
+
+        .filter.active::after {
+            opacity: 1;
+        }
+    }
+
+    .description {
+        margin-bottom: 2rem;
+    }
+
+    .description.hide {
+        display: none;
+    }
+
+    .gallery {
+        column-count: 3;
+        column-gap: 1em;
+
+        .image-wrapper.hide {
+            display: none;
+        }
+
+        .image-wrapper {
+            .image {
+                position: relative;
+                margin-bottom: 1rem;
+
+                img {
+                    cursor: pointer;
+                    display: inline-block;
+                    // margin: 0 0 1em;
+                    width: 100%;
+                }
+
+                .thumb {
+                    //to add a little gradient at the bottom of images
+                    -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+                    -webkit-mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+                    mask-image: -webkit-gradient(linear, left top, left bottom, from(black), to(transparent));
+                    mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+
+                }
+
+                h4 {
+                    position: absolute;
+                    bottom: 15px;
+                    left: 10px;
+
+                    // color: white;
+                }
+
+                .lightbox {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: rgba(0, 0, 0, 0.9);
+                    z-index: 9999;
+                    overflow: auto;
+                    justify-content: center;
+                    align-items: center;
+
+                    transition: all 0.2s;
+
+                    img {
+                        cursor: auto;
+                    }
+
+                    .close-button {
+                        cursor: pointer;
+                        position: absolute;
+                        top: -10px;
+                        right: 0.5rem;
+
+                        font-size: 4rem;
+                        color: white;
+                    }
+
+                    .lightbox-content {
+                        width: 100%;
+                        height: 100%;
+
+                        .secondary {
+                            max-width: 100%;
+                            max-height: 100%;
+
+                            // transition: transform 0.3s ease;
+                            overflow: hidden;
+                        }
+
+                        // .image-gallery {
+                        //     width: 75%;
+                        //     margin-left: auto;
+                        //     margin-right: auto;
+                        //     left: 0;
+                        //     right: 0;
+                        //     margin-top: 1rem;
+                        //     padding-bottom: 5rem;
+
+                        //     position: absolute;
+
+                        //     column-count: 3;
+                        //     column-gap: 1em;
+
+                        //     img {}
+                        // }
+
+                        .image-gallery {
+                            height: 650px;
+                            width: 100%;
+                            margin: 4rem auto;
+                            overflow-x: hidden;
+                            overflow-y: hidden;
+                            /* Enable horizontal scrolling */
+                            white-space: nowrap;
+                            /* Prevent images from wrapping to new lines */
+                            cursor: grab;
+                            /* Set the cursor to "grab" */
+                            user-select: none;
+                            /* Disable text selection while grabbing */
+                            -webkit-overflow-scrolling: touch;
+                            /* Enable smooth scrolling on iOS */
+                            z-index: 1;
+                            text-align: center;
+                        }
+
+                        .image-gallery.center-align {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                        }
+
+                        img.secondary {
+                            height: auto;
+                            width: auto;
+                            display: inline-block;
+                            /* Display images in a row */
+                            margin-left: 1em;
+                            margin-right: 1em;
+                            /* Add some spacing between images */
+                            cursor: grab;
+                        }
+
+                        p.secondary {
+                            bottom: 2rem;
+                            width: 60%;
+                            position: fixed;
+                            margin-left: auto;
+                            margin-right: auto;
+                            left: 0;
+                            right: 0;
+
+                            color: #fff;
+                            text-align: center;
+                        }
+                    }
+
+                }
+            }
+
+            .thumb:hover {
+                transition: transform 0.3s ease;
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+
+.contact {
+    padding-bottom: 1.5rem;
+    margin-right: 1rem;
+
+    h3 {
+        text-align: right;
+    }
+}
+
+.image-wrapper,
+.description {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-wrapper.active,
+.description.active {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        width: 85%;
+    }
+
+    .work {
+        .gallery {
+            column-count: 2;
+
+            .image-wrapper {
+                .image {
+                    .lightbox {
+                        .lightbox-content {
+                            p.secondary {
+                                width: 90%;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        width: 90%;
+    }
+
+    .nav h3 {
+        font-size: 1em;
+    }
+
+    .filter-wrapper {
+        flex-wrap: wrap;
+    }
+
+    h1,
+    h2,
+    h3 {}
+
+    p {
+        width: 95%;
+    }
+
+    .work {
+        .gallery {
+            column-count: 1;
+
+            .image-wrapper {
+                .image {
+                    .lightbox {
+                        .lightbox-content {
+                            p.secondary {
+                                width: 90%;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

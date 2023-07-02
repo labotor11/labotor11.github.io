@@ -1,0 +1,4 @@
+npm run sass-watch <--- run in seperate window to compile sass
+
+live-server
+

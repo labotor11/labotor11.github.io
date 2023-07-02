@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Linna's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- <script type="text/javascript" src="https://s0.2mdn.net/ads/studio/cached_libs/gsap_3.5.1_min.js"></script> -->
+    <script src="node_modules/dragscroll/dragscroll.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <style>
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+	</style> 
+</head>
+
+<body>
+    <div class="container">
+    	<nav class="navigation" id="home"> <!-- so it doesn't scroll to under the navbar on click -->
+    		<a class="nav nav-home active" href="#home"><h3>home</h3></a>
+    		<!-- <a class="nav nav-about" href="#"><h3>about me</h3></a> -->
+    		<a class="nav nav-work" href="#work"><h3>my work</h3></a>
+            <a class="nav nav-contact" href="#contact"><h3>contact</h3></a>
+    	</nav>
+
+        <div class="content home">
+            <h1>Hi! i'm linna</h1>
+            <h2>a graphic/ux designer & illustrator</h2>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="content about">
+                <h1>about me</h1>
+                <p>My name is Linna Praisa, and I am an Interactive Designer graduate that has worked as a Graphic Designer/Creative Developer for 4 years, with a small amount of experience with collaborating on Front-End and Adbanner projects - usually aiding with HTML/CSS and GSAP animations. Currently based in Utrecht, The Netherlands.<br><br>I am also passionately creative on the side, with drawing & illustration being my main hobby since childhood - and have picked up a recent interest in 3D modeling, sculpting and texturing.</p>
+            </div>
+        </div>
+
+        <div class="content work" id="work">
+            <h1>my work</h1>
+            <div class="filter-wrapper">
+                <button class="filter active" data-filter="view-all"><h2>view all</h2></button>
+                <button class="filter" data-filter="graphic-ux"><h2>graphic/ux design</h2></button>
+                <button class="filter" data-filter="illustration"><h2>illustration</h2></button>
+                <button class="filter" data-filter="3d"><h2>3d</h2></button>
+            </div>
+
+            <p class="description" data-item="view-all"></p>
+            <p class="description" data-item="graphic-ux">Projects from my time as a Creative Developer at Mr Ynk with some freelance work in-between. Mostly website/banner/campaigngame design, but also some more illustrative/concepting work is shown here.</p>
+            <p class="description" data-item="illustration">My longest standing hobby - been drawing since i've been able to pick up a pencil! Only digital work is shown here as it's the medium in which I tend to create fully finished works, but I do keep a few traditional sketchbooks. I tend to gravitate towards character & creature art - drawing mostly inspiration various fantasy settings and folklore.</p>
+            <p class="description" data-item="3d">A somewhat recent hobby - only really started to get hands-on with Blender in 2023. Most previous experience in modeling and texturing came from working on various game mods.</p>
+
+            <div class="gallery">
+                <div class="image-wrapper" data-item="graphic-ux">
+                    <div class="image" data-set="opel">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+<!--                           <button id="prev-btn">Previous</button>
+                          <button id="next-btn">Next</button> -->
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="lotto-gouden-bal">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="vice">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="fritsie">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <!-- <img src="" alt="" class="secondary" /> -->
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="npl-295">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="spraymaster">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="berg-qr-speurtocht">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="lucky-day-hoger-lager">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="bob">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="ulla">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="lotto-cadeau-parade">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="stl-inpakken-en-wegwezen">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="image-wrapper" data-item="illustration">
+                    <div class="image" data-set="harpy">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <video height="650" controls>
+                                <source src="img/illustration/harpy/2.mov" class="hidden" />
+                            </video>
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="adiane">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="duality">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="masquerade">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="winter">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <video height="650" controls>
+                                <source src="img/illustration/winter/2.mov" class="hidden" />
+                            </video>
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="goblin">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <video height="650" controls>
+                                <source src="img/illustration/goblin/3.mov" class="secondary" />
+                            </video>
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="ugnes">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="elzal">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="portraits">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="self-portraits">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="doodles">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="studies">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <div class="image-wrapper" data-item="3d">
+                    <div class="image" data-set="seamore">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="image" data-set="sardow">
+                      <img data-imagethumb-path src="" alt="thumb" class="thumb" />
+                      <h4 data-title></h4>
+                      <div class="lightbox">
+                        <div class="close-button">×</div>
+                        <div class="lightbox-content">
+                          <div class="image-gallery dragscroll">
+                            <img src="" alt="" class="secondary" />
+                            <img src="" alt="" class="secondary" />
+                          </div>
+                          <p data-description class="secondary"></p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper"><div class="content contact" id="contact">
+            <h3>thanks for viewing!</h3>
+            <h3>contact - lvpraisa@gmail.com</h3>
+            <!-- <img class="social instagram" src=".svg"/></div> -->
+        </div>
+    </div>
+
+    <script>
+        
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Linna's Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "sass-watch": "sass --watch sass/main.scss css/style.css"
+  },
+  "author": "Linna",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.63.6"
+  },
+  "dependencies": {
+    "dragscroll": "^0.0.8",
+    "medium-zoom": "^1.0.8"
+  }
+}
