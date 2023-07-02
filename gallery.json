@@ -12,11 +12,12 @@
     "opel":
     {
         "title": "opel DCO",
-        "description": "Preview: <a href='https://preview.bann.rs/22PUB008OPE-Opel-development/' target='_blank'>https://preview.bann.rs/22PUB008OPE-Opel-development/</a>\n\nA project for Opel (and Vauxhall) - we were tasked with creating and developing a dynamic banner system. The idea is that we build templates in which the client can insert their own data into (images, text, etc) and it works across sizes and languages. A very large-scale project, spanning multiple months - I was brought in to concept and create the default designs that the system will adhere to. A very long process, in part due to how many clients were involved with the feedback process - but ultimately paid off as the end-result is flexible enough for the client to use and re-use with ease.",
+        "description": "Preview: <a href='https://preview.bann.rs/22PUB008OPE-Opel-development/' target='_blank'>https://preview.bann.rs/22PUB008OPE-Opel-development/</a>\n\nA project for Opel (and Vauxhall) - we were tasked with creating and developing a dynamic banner system. The idea is that we build templates in which the client can insert their own data into (images, text, etc) and it works across sizes and languages. A very large-scale project, spanning multiple months - I was brought in to concept and create the default designs that the system will adhere to. A very long process, in part due to how many clients were involved with the feedback process - but ultimately paid off as the end-result is flexible enough for the client to use and re-use with ease. I have laid out some wireframing/earlier concepts above.",
         "imageThumbPath": "img/graphic-ux/opel/thumb.png",
         "secondaryImages": [
             "img/graphic-ux/opel/1.png",
-            "img/graphic-ux/opel/2.png"
+            "img/graphic-ux/opel/2.png",
+            "img/graphic-ux/opel/3.png"
         ]
     },
     "lotto-gouden-bal":
@@ -32,7 +33,7 @@
     "vice":
     {
         "title": "vice - eduction in motion",
-        "description": "Preview: <a href='https://eueducationinmotion.vice.com/en' target='_blank'>https://eueducationinmotion.vice.com/en</a> (final stage, after a winner had been picked)\n\nA project made for Vice World News in collaboration with the EU - a contest for documentary-makers was going to be launched and we were pulled in at the beginning of the project, so we had the freedom to come up with our own concepts and designs aside from just working on development. I worked together with the client's Director of Design, he was able to provide us with early concepting guidance such as moodboards as well as feedback on the consequent design passes. The current version of the website is centered around the winner that had been chosen, but I have laid out some earlier stages as well.",
+        "description": "Preview: <a href='https://eueducationinmotion.vice.com/en' target='_blank'>https://eueducationinmotion.vice.com/en</a> (final stage, after a winner had been picked)\n\nA project made for Vice World News in collaboration with the EU - a contest for documentary-makers was going to be launched and we were pulled in at the beginning of the project, so we had the freedom to come up with our own concepts and designs aside from just working on development. I worked together with the client's Director of Design, he was able to provide us with early concepting guidance such as moodboards as well as feedback on the consequent design passes. The current version of the website is centered around the winner that had been chosen, but I have laid out the pre-winner website + some earlier concepts.",
         "imageThumbPath": "img/graphic-ux/vice/thumb.png",
         "secondaryImages": [
             "img/graphic-ux/vice/1.png",
@@ -158,7 +159,7 @@
     "harpy":
     {
         "title": "harpy",
-        "description": "A harpy from Baldur's Gate 3",
+        "description": "A harpy from Baldur's Gate 3.",
         "imageThumbPath": "img/illustration/harpy/thumb.png",
         "secondaryImages": [
             "img/illustration/harpy/1.png",
@@ -168,7 +169,7 @@
     "adiane":
     {
         "title": "adiane",
-        "description": "Adiane from Gurren Lagann",
+        "description": "Adiane from Gurren Lagann.",
         "imageThumbPath": "img/illustration/adiane/thumb.png",
         "secondaryImages": [
             "img/illustration/adiane/1.png",
